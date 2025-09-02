@@ -1,0 +1,25 @@
+
+
+
+
+body{   
+    background-color: rgba(66, 64, 64, 0.678);
+
+
+
+
+}
+
+
+
+
+.header{
+
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+    align-items :center;
+    text-align: center;
+    background-color:rgb(255, 216, 44) ;
+    width: 100%;
+    padding: 20px 0;
+}
