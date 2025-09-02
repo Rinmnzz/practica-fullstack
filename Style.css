@@ -3,7 +3,7 @@
 
 
 body{   
-    background-color: rgba(66, 64, 64, 0.678);
+    background-color: rgba(0, 0, 0, 0.678);
 
 
 
@@ -22,4 +22,37 @@ body{
     background-color:rgb(255, 216, 44) ;
     width: 100%;
     padding: 20px 0;
+    font-size: 50px;
+}
+
+
+
+.navegacion{
+    font-family: Arial;
+    color: rgb(255, 216, 44);
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.main-nav ul {
+  list-style: none; /* Quita los puntos */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Para que los items estén en línea */
+  gap: 20px; /* Espacio entre los enlaces */
+  background-color: rgb(255, 216, 44); /* Fondo oscuro para el nav */
+  justify-content: center;
+}
+
+.main-nav li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+
+.main-nav li a:hover {
+  background-color: rgb(255, 216, 44);
+  border-radius: 4px;
 }
