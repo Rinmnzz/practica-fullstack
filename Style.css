@@ -100,7 +100,7 @@ main {
 
 /* Espacio entre main y sección: aplicado aquí */
 .sobre-nosotros {
-  margin-top: 9000px; /* Separación visible, ajustable */
+  margin-top: 200px; /* Separación visible, ajustable */
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
@@ -112,6 +112,7 @@ main {
   border-radius: 8px;
   font-family: Arial, sans-serif;
   color: #333;
+  
 }
 
 /* Ajustes del contenido dentro de la sección */
