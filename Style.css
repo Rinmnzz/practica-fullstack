@@ -1,47 +1,41 @@
-
-
-
-
-body{   
-    background-color: rgba(0, 0, 0, 0.678);
-
-
-
-
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-
-
-.header{
-
-    font-family: Arial;
-    color: rgb(0, 0, 0);
-    align-items :center;
-    text-align: center;
-    background-color:rgb(255, 216, 44) ;
-    width: 100%;
-    padding: 20px 0;
-    font-size: 50px;
+/* Estilos generales */
+body {
+  background-color: rgba(0, 0, 0, 0.678);
 }
 
-
-
-.navegacion{
-    font-family: Arial;
-    color: rgb(255, 216, 44);
-    text-align: center;
-    font-size: 30px;
+/* Header principal */
+.header {
+  font-family: Arial;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: rgb(255, 216, 44);
+  width: 100%;
+  padding: 20px 0;
+  font-size: 50px;
 }
 
+/* Navegación */
+.navegacion {
+  font-family: Arial;
+  color: rgb(255, 216, 44);
+  text-align: center;
+  font-size: 30px;
+}
 
 .main-nav ul {
-  list-style: none; /* Quita los puntos */
+  list-style: none;
   padding: 0;
   margin: 0;
-  display: flex; /* Para que los items estén en línea */
-  gap: 20px; /* Espacio entre los enlaces */
-  background-color: rgb(255, 216, 44); /* Fondo oscuro para el nav */
+  display: flex;
+  gap: 20px;
+  background-color: rgb(255, 216, 44);
   justify-content: center;
 }
 
@@ -55,4 +49,105 @@ body{
 .main-nav li a:hover {
   background-color: rgb(255, 216, 44);
   border-radius: 4px;
+}
+
+/* Main / Formulario */
+main {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.registro-form {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  background-color: rgb(255, 216, 44);
+}
+
+.registro-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.registro-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.registro-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(255, 207, 49);
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #000000;
+}
+
+.registro-form button:hover {
+  background-color: rgb(230, 190, 30);
+}
+
+/* Espacio entre main y sección: aplicado aquí */
+.sobre-nosotros {
+  margin-top: 9000px; /* Separación visible, ajustable */
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #eaeaea;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Ajustes del contenido dentro de la sección */
+.sobre-nosotros .contenido-texto {
+  flex: 1;
+}
+
+.sobre-nosotros .contenido-imagen {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.sobre-nosotros h2 {
+  margin-top: 0;
+  color: rgb(255, 207, 49);
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Imagen adaptativa */
+.sobre-nosotros .contenido-imagen img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Footer */
+.main-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
 }
